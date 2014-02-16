@@ -28,6 +28,7 @@ app.set 'partials',
   head: 'partials/head',
   navbar: 'partials/navbar',
   scripts: 'partials/scripts'
+  gpa: 'partials/gpa'
 
 app.engine 'html', require('hogan-express')
 app.enable 'view cache'

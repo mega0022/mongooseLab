@@ -33,7 +33,8 @@
   app.set('partials', {
     head: 'partials/head',
     navbar: 'partials/navbar',
-    scripts: 'partials/scripts'
+    scripts: 'partials/scripts',
+    gpa: 'partials/gpa'
   });
 
   app.engine('html', require('hogan-express'));
