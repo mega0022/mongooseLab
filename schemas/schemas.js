@@ -12,6 +12,7 @@
     body: String,
     category: String,
     htmlId: String,
+    button: String,
     img: String
   });
 
@@ -22,5 +23,3 @@
   };
 
 }).call(this);
-
-//# sourceMappingURL=schemas.map

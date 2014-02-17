@@ -8,6 +8,7 @@ Section = new Schema(
   body: String
   category: String
   htmlId: String
+  button: String
   img: String
 )
 

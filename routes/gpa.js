@@ -85,5 +85,3 @@
   module.exports.gradesToNumbers = gradesToNumbers;
 
 }).call(this);
-
-//# sourceMappingURL=gpa.map

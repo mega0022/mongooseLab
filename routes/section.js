@@ -40,6 +40,8 @@
     var id, section;
     section = req.body;
     delete section._id;
+
+    /*console.log req */
     id = req.params.id;
     return Section.update({
       _id: id
@@ -62,7 +64,7 @@
         link: 'http://www.nodejs.org',
         category: 'default',
         htmlId: 'node',
-        body: 'Node.js is a software platform that is used to build scalable network (especially server-side) applications. Node.js utilizes JavaScript as its scripting language, and achieves high throughput via non-blocking I/O and a single-threaded event loop. Node.js contains a built-in HTTP server library, making it possible to run a web server without the use of external software, such as Apache or Lighttpd, and allowing more control of how the web server works.',
+        body: ' <select id ="grade1" name="grade1"> <option value=0>-select grade-</option> <option value="A">A</option> <option value="A-">A-</option> <option value="B+">B+</option> <option value="B">B</option> <option value="B-">B-</option> <option value="C+">C+</option> <option value="C">C</option> <option value="C-">C-</option> <option value="D+">D+</option> <option value="D">D</option> <option value="D-">D-</option> <option value="F">F</option> </select>',
         img: 'http://www.wvliving.com/Fall-2011/pumpkin_stock.jpg'
       }, {
         title: 'Coffeescript',
@@ -86,7 +88,11 @@
         title: 'pumkin',
         link: '',
         htmlId: '',
-        body: '',
+        img: ''
+      }, {
+        title: 'pumkinb',
+        link: '',
+        htmlId: '',
         img: ''
       }
     ];

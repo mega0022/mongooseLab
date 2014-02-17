@@ -18,5 +18,3 @@
   };
 
 }).call(this);
-
-//# sourceMappingURL=gpaSchema.map
