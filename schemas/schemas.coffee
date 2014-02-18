@@ -5,7 +5,8 @@ Schema = mongoose.Schema
 Section = new Schema(
   title: String
   link: String
-  body: String
+  credit: String
+  grade: String
   category: String
   htmlId: String
   button: String

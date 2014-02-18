@@ -24,7 +24,9 @@
       body: 'Hello world',
       category: 'default',
       htmlId: '#',
-      img: 'http://fc00.deviantart.net/fs70/i/2012/292/b/2/pumpkin_stock_2___blossom_by_nickistock-d5ia9li.jpg'
+      img: 'http://fc00.deviantart.net/fs70/i/2012/292/b/2/pumpkin_stock_2___blossom_by_nickistock-d5ia9li.jpg',
+      credit: '--',
+      grade: '--'
     };
 
     return Section;
@@ -32,3 +34,5 @@
   })(Backbone.Model);
 
 }).call(this);
+
+//# sourceMappingURL=section.map

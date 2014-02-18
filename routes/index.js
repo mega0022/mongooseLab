@@ -2,8 +2,8 @@
 (function() {
   exports.index = function(req, res) {
     res.locals = {
-      title: 'PumpkinBase',
-      description: 'Pumpkins. Pumpkins everywhere.'
+      title: 'GPA Calculator',
+      description: 'Enter your grades and credits and see your GPA'
 
       /*'An example of one way to build a powerful web app based on Node.js' */
     };
@@ -11,3 +11,5 @@
   };
 
 }).call(this);
+
+//# sourceMappingURL=index.map
