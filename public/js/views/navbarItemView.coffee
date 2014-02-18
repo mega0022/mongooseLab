@@ -3,7 +3,7 @@ class window.NavbarItemView extends Backbone.View
 
   #Defining the template html explicitly rather than selecting it from a hidden element
   #Convinient for small snippets like this, not for anything much bigger
-  template: _.template '<a href="#<%= htmlId %>"><%= title %></a>'
+  template: _.template '<a href="#<%= htmlId %>"><%= className %></a>'
 
   events:
     click: 'makeActive'

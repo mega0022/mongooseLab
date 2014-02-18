@@ -41,7 +41,9 @@ Created by mart2967 on 1/30/14.
       console.log('changed');
       change = {};
       change[event.target.name] = event.target.value;
-      return this.model.set(change);
+      this.model.set(change);
+      this.model.save();
+      return this.render();
     };
 
     SectionView.prototype.editSection = function() {
@@ -67,3 +69,5 @@ Created by mart2967 on 1/30/14.
   })(Backbone.View);
 
 }).call(this);
+
+//# sourceMappingURL=sectionView.map

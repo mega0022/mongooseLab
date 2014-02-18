@@ -1,4 +1,3 @@
-gpa = require("./routes/gpa")
 express = require 'express'
 routes = require './routes'
 section = require './routes/section'
@@ -28,7 +27,6 @@ app.set 'partials',
   head: 'partials/head',
   navbar: 'partials/navbar',
   scripts: 'partials/scripts'
-  gpa: 'partials/gpa'
 
 app.engine 'html', require('hogan-express')
 app.enable 'view cache'
@@ -58,8 +56,6 @@ app.post '/section', section.create
 app.get '/sections', section.findAll
 app.put '/section/:id', section.edit
 
-app.get "/gpa", gpa.gpaResponse
-app.post "/gpa", gpa.gpaPostResponse
 
 http.createServer(app).listen app.get('port'), ->
   console.log 'Express server listening on port ' + app.get('port')

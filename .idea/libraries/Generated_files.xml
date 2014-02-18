@@ -3,23 +3,31 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/routes/section.js" />
+        <item url="file://$PROJECT_DIR$/public/js/views/sectionCollectionView.js" />
+        <item url="file://$PROJECT_DIR$/public/js/views/navbarView.js" />
+        <item url="file://$PROJECT_DIR$/public/js/views/sectionView.js" />
         <item url="file://$PROJECT_DIR$/routes/index.js" />
         <item url="file://$PROJECT_DIR$/public/js/collections/sectionCollection.js" />
         <item url="file://$PROJECT_DIR$/app.js" />
-        <item url="file://$PROJECT_DIR$/schemas/schemas.js" />
         <item url="file://$PROJECT_DIR$/public/js/models/section.js" />
+        <item url="file://$PROJECT_DIR$/schemas/schemas.js" />
+        <item url="file://$PROJECT_DIR$/public/js/views/navbarItemView.js" />
         <item url="file://$PROJECT_DIR$/routes/gpa.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/schemas/gpaSchema.js" />
       <root url="file://$PROJECT_DIR$/schemas/gpaSchema.js" />
+      <root url="file://$PROJECT_DIR$/public/js/views/sectionCollectionView.js" />
       <root url="file://$PROJECT_DIR$/routes/section.js" />
+      <root url="file://$PROJECT_DIR$/public/js/views/navbarView.js" />
+      <root url="file://$PROJECT_DIR$/public/js/views/sectionView.js" />
       <root url="file://$PROJECT_DIR$/routes/index.js" />
       <root url="file://$PROJECT_DIR$/public/js/collections/sectionCollection.js" />
       <root url="file://$PROJECT_DIR$/app.js" />
-      <root url="file://$PROJECT_DIR$/public/js/models/section.js" />
       <root url="file://$PROJECT_DIR$/schemas/schemas.js" />
+      <root url="file://$PROJECT_DIR$/public/js/models/section.js" />
+      <root url="file://$PROJECT_DIR$/public/js/views/navbarItemView.js" />
       <root url="file://$PROJECT_DIR$/routes/gpa.js" />
     </CLASSES>
     <SOURCES />

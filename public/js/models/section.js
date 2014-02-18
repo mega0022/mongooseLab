@@ -19,12 +19,8 @@
     };
 
     Section.prototype.defaults = {
-      title: 'Title',
-      link: '#',
-      body: 'Hello world',
-      category: 'default',
+      className: 'Class Name',
       htmlId: '#',
-      img: 'http://fc00.deviantart.net/fs70/i/2012/292/b/2/pumpkin_stock_2___blossom_by_nickistock-d5ia9li.jpg',
       credit: '--',
       grade: '--'
     };

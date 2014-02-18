@@ -12,7 +12,7 @@
 
     NavbarItemView.prototype.tagName = 'li';
 
-    NavbarItemView.prototype.template = _.template('<a href="#<%= htmlId %>"><%= title %></a>');
+    NavbarItemView.prototype.template = _.template('<a href="#<%= htmlId %>"><%= className %></a>');
 
     NavbarItemView.prototype.events = {
       click: 'makeActive'
@@ -38,3 +38,5 @@
   })(Backbone.View);
 
 }).call(this);
+
+//# sourceMappingURL=navbarItemView.map

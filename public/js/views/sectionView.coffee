@@ -25,6 +25,8 @@ class window.SectionView extends Backbone.View
     change = {}
     change[event.target.name] = event.target.value #uses name attribute from html
     @model.set(change)
+    @model.save()
+    @render()
 
   editSection: ->
     # set the html of the view to the editing template

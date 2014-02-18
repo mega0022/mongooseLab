@@ -37,3 +37,5 @@
   })(Backbone.View);
 
 }).call(this);
+
+//# sourceMappingURL=navbarView.map
