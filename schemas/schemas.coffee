@@ -3,14 +3,9 @@ Schema = mongoose.Schema
 
 
 Section = new Schema(
-  title: String
-  link: String
   credit: String
   grade: String
-  category: String
-  htmlId: String
-  button: String
-  img: String
+  className: String
 )
 
 Section = mongoose.model 'Section', Section

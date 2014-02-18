@@ -8,6 +8,9 @@ Section.count({},(err, c) ->
     populateDB()
 )
 
+exports.addClass = (req, res) ->
+  createAndAdd()
+
 exports.findAll = (req, res) ->
   Section.find (err, items) ->
     res.send items
@@ -44,23 +47,18 @@ populateDB = ->
   sections = [
     {
       className: 'Class 1'
-      link: 'http://www.nodejs.org'
-      category: 'default'
       htmlId: 'class 1'
     },
     {
       className: 'Class 2'
-      link: 'http://www.coffeescript.org'
       htmlId: 'class 2'
     },
     {
       className: 'Class 3'
-      link: 'http://visionmedia.github.io/mocha/'
       htmlId: 'class 3'
     },
     {
       className: 'Class 4'
-      link: 'http://www.backbonejs.org'
       htmlId: 'class 4'
     }
 

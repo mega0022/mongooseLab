@@ -51,6 +51,10 @@ Created by mart2967 on 1/30/14.
       return this;
     };
 
+    SectionView.prototype.addClass = function() {
+      return this.render();
+    };
+
     SectionView.prototype.saveSection = function() {
       console.log('saving...');
       this.model.save({}, {

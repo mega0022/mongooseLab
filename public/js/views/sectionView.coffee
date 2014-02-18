@@ -33,6 +33,9 @@ class window.SectionView extends Backbone.View
     @$el.html @editTemplate(@model.toJSON())
     this
 
+  addClass: ->
+    @render()
+
   saveSection: ->
     #save all changes made to the model back to the database
     console.log 'saving...'
